@@ -1,0 +1,116 @@
+
+header {
+    background: #fff;   
+    height: 182px;    
+    padding: 0;
+}
+
+.header-top {
+    width: 100%;
+    height: 60px;    
+}
+
+.header-logo {    
+    box-sizing: border-box;
+    width: 200px;
+    height: 121px;
+    padding: 42px 15px;
+    float: left;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;    
+}
+
+.header-info {
+    width: 800px;    
+    height: 121px;     
+    float: left;
+    box-sizing: border-box;   
+}
+
+.header-info ul {
+    font-size: 0;    
+}
+
+.header-info ul li {
+    display: inline-block;
+    margin: 50px 40px 0 15px;
+}
+
+.header-info ul li a {
+    font-size: 16px;    
+    color: #43525d;   
+}
+
+.header-info ul li a:hover {
+    color: #ff7013;
+}
+
+.user-link {    
+    width: 200px;
+    height: 121px;    
+    float: left;
+    box-sizing: border-box;  
+    text-align: right;  
+    position: relative;  
+}
+
+.user-link a {
+    display: inline-block;
+    margin: 60px 15px 0 15px; 
+    color: #34404b;   
+}
+
+.user-link a i {   
+    font-size: 18px;
+    margin: 5px 4px;
+    
+}
+
+.user-link a i:hover {   
+    box-shadow: 0 0 10px  #ff7013;
+    border-radius: 40%;
+    color: #ff7013;
+}
+
+.basket-counter {
+    background: #34404b;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    right: 19px;
+    top: 48px;    
+}
+
+.header-top a {
+    font-size: 12px;
+    color: #34404b;
+}
+
+.phone, .mail {    
+    display: inline-block;
+    margin: 22px 15px 0 15px;    
+}
+
+.phone span, .mail span {
+    margin-right: 5px;  
+}
+
+.header-top a:hover {
+    color: #ff7013;    
+}
+
+.social {
+    float: right;
+    margin: 22px 15px 0 5px;
+}
+
+.header-top .social:hover {    
+    margin: 19px 15px 0 5px; 
+    box-shadow: 0 0 10px  #ff7013;
+    border-radius: 40%;
+}

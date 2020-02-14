@@ -1,0 +1,374 @@
+
+/* ---woman--- */
+.woman {
+    width: 1200px;   
+    margin: -10px auto 0 auto;    
+    background-image: url(../images/woman.png);   
+    background-size: cover;
+}
+
+.woman .container-100 {
+    padding: 180px 40px;
+}
+
+.woman .container-100 h1 {
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+
+.woman .container-100 p {
+    line-height: 200%;
+}
+
+.woman p span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.woman p span .orange {
+    line-height: 600%;
+    margin-left: 20px;    
+}
+/* ---woman end--- */
+
+
+/* ----NEW ARRIVALS---- */
+h2 span {
+    color: #43525d;
+}
+
+.section-description-100 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.goods-cart-25 {
+    width: 270px;
+    height: 365px;
+    margin: 0 15px 0 15px;
+    background: #fff;
+    float: left;
+    text-align: center;
+    font-size: 18px;    
+}
+
+.goods-cart-25 .goods-name {
+    margin-top: 26px;    
+}
+
+.goods-cart-25 img, .goods-cart-25 .cost {
+    margin-top: 30px;
+}
+
+
+.goods-name:hover {
+    cursor: pointer;
+    color: #ff7013;
+}
+
+.goods-size {
+    margin-top: 26px;    
+}
+
+p.goods-size span:hover {
+    cursor: pointer;
+    color: #ff7013;    
+}
+
+.color_goods {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;    
+}
+
+.color_goods:hover {
+    cursor: pointer;    
+    border: 1px solid  #ff7013;
+    box-sizing: border-box;
+}
+
+.color_red {
+    background: #e12e3f;
+}
+
+.color_black {
+    background: #34404b;
+}
+
+.color_blue {
+    background: #3ab3ff;
+}
+
+.color_green {
+    background: #2fd967;
+}
+
+.icons_cart::before {
+    content: "";
+    width: 75%;
+    height: 1px;
+    display: block;
+    background: #f4f6f8;
+    margin: 26px auto;
+}
+
+.icons_cart i:hover {
+    cursor: pointer;
+    color: #ff7013;
+}
+
+.goods-cart-25 .icons_cart i {
+    margin: 0 15px;
+}
+/* ----NEW ARRIVALS end---- */
+
+
+/* ---Three point--- */
+.three-point {
+    height: 60px;
+    background: #fff;
+    margin: 80px 15px 120px 15px;
+    text-align: center;
+}
+
+.three-point-orange {
+
+    width: 16px;
+    height: 16px;
+    background: #ff7013;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 22px 5px 0 5px;
+
+}
+
+/* ---Three point end--- */
+
+
+/* ---Full Winter Kit--- */
+.amalker-1 {
+    width: 700px;
+    height: 100px;    
+    float: left;    
+}
+.amalker-2 {
+    width: 470px;
+    height: 100px;
+    background: #fff;
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.amalker-2 h4 {
+    font-size: 16px;    
+    margin-top: 26px;
+}
+
+.amalker-2 h4 span {
+    font-size: 16px;
+    color: #34404b;
+}
+
+.amalker-2 p {
+    font-size: 12px;    
+    margin-top: 12px;
+}
+
+.amalker-1_1, .amalker-1_2, .amalker-1_3  {   
+    height: 100px;     
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px;
+    background: #fff;
+}
+
+.amalker-1_1 {
+    width: 185px;
+    color: #fff;
+    background-image: url(../images/bg-amalker-1_1.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding: 10px 10px 10px 80px; 
+    margin-left: 15px;   
+}
+
+.amalker-1_1 p span {
+    font-style: italic;    
+    font-size: 12px;
+}
+
+.amalker-1_1 p {
+    font-style: bold;
+    font-size: 18px;
+    margin: 10px 30px 0 2px;    
+    text-align: center;    
+}
+
+.amalker-1_2 {
+    width: 300px;
+    position: relative;    
+}
+
+.amalker-1_3 {
+    width: 185px;    
+}
+
+.amalker-1_2 h4 {    
+    font-size: 22px;
+    color: #34404b;
+    padding: 22px 0 0 3px;    
+    text-transform: uppercase;    
+}
+
+.amalker-1_2 h4::after {
+    position: absolute;
+    width: 1px;
+    height: 46px;
+    content: "";
+    background: #f4f6f8;    
+    top: 27px;
+    right: 18px;
+}
+
+.amalker-1_2 p {    
+    font-size: 12px;       
+    padding: 10px 0 0 3px;
+}
+
+.amalker-1_3 p {    
+    font-size: 30px;       
+    font-weight: bold;   
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.amalker-1_3 i {    
+    font-size: 24px;    
+    margin-right: 15px;
+}
+
+/* ---Full Winter Kit end--- */
+
+/* ---Best Sales--- */
+
+.goods-cart-33 {
+    width: 370px;
+    height: 160px;
+    margin: 0 15px;
+    background: #fff;
+    float: left;
+    text-align: center;
+    font-size: 18px;      
+}
+
+.goods-cart-33_1 {   
+    float: left;
+    width: 38%;
+    margin: 30px 0;
+    position: relative;       
+}
+
+.goods-cart-33_1 img {
+    width: 100%;
+    max-width: 90px;    
+}
+
+
+.goods-cart-33_2 {   
+    float: left;
+    width: 60%;     
+    margin: 15px 0;   
+}
+
+.goods-cart-33_2 p  {   
+    margin: 20px 0 30px 0;    
+}
+
+.goods-cart-33_1::after {
+    position: absolute;
+    width: 1px;
+    height: 90px;
+    content: "";
+    background: #f4f6f8;    
+    top: 0px;
+    right: 0px;
+}
+/* ---Best Sales end--- */
+
+
+/* ---news letter--- */
+.letter-1 {
+    width: 685px;
+    margin: 120px 0 120px 15px;
+    height: 123px;
+    background: #fff;
+    float: left;
+    
+}
+
+.letter-2 {
+    width: 485px;
+    margin: 120px 15px 120px 0;
+    height: 123px;
+    background: #fff;
+    float: left;
+}
+
+.letter-1 h3 {
+    margin: 50px 0 0 55px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.letter-1 p {
+    margin: 50px 0 0 25px;
+    font-style: italic;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.letter-2 form {
+    margin: 35px 0 0 25px;    
+    display: block;
+    font-size: 14px;    
+}
+
+.letter-2 form button {
+    background: #ff5912;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    padding: 16px 30px;
+    margin: 0 0 0 50px;
+}
+
+.letter-2 form input {
+    padding: 3px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    width: 55%;
+}
+
+.letter-2 form input:focus {
+    border: 1px solid #ff7013;
+    outline: none; 
+    padding: 3px;   
+}
+
+
+
+
+
+
+
+
+/* ---news letter end--- */
+
+
+
+
+

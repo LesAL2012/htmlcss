@@ -1,0 +1,78 @@
+footer {
+    background: #fff;   
+    height: 140px;    
+    padding: 0;
+}
+
+.footer-logo {
+    box-sizing: border-box;
+    width: 400px;
+    padding: 30px 15px;
+    float: left;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    margin-top: 55px;
+}
+
+.footer-info-16 {
+    width: 200px;
+    padding: 10px 0 0 15px;    
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer-info-16 ul li a {
+    font-size: 14px;    
+    line-height: 200%;
+    padding: 15px;
+    color: #28313b;
+}
+
+.footer-info-16 ul li a:hover {
+    color: #ff7013;
+}
+
+.footer-info-16 ul  {    
+    padding: 15px 0;
+}
+
+.footer-pay_methods-16 {
+    width: 200px;
+    padding: 0 15px;    
+    float: left;
+    box-sizing: border-box;   
+}
+
+.footer-pay_methods-16 h4 {   
+    font-size: 16px;   
+    margin-top: 38px;
+}
+
+.select_card {
+    background-image: url(../images/footer-pay_method.png);
+    width: 27px;
+    height: 19px;
+    display: inline-block;
+    margin: 20px 3px 0 0;
+}
+
+.footer-pay_methods-16 .card-2 {
+background-position: -36px 0;
+}
+
+.footer-pay_methods-16 .card-3 {
+    background-position: -71px 0;
+}
+
+.footer-pay_methods-16 .card-4 {
+    background-position: -107px 0;
+}
+
+.footer-pay_methods-16 .card-5 {
+    background-position: -143px 0;
+}

@@ -1,0 +1,174 @@
+.bg-white {
+    padding: 60px 0;
+    background: #fff;
+    margin: -9px auto 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.products-left {
+    width: 500px;
+    box-sizing: border-box;    
+    float: left;
+    background:#fff;
+        
+}
+
+.products-right {
+    width: 700px;
+    box-sizing: border-box;
+    background:#fff;    
+    float: left;    
+}
+
+.products-left .goods-cart {
+    width: 270px;
+    height: 365px;
+    margin: 0 auto;
+    background: #fff;
+    float: left;
+    text-align: center;
+    font-size: 18px;    
+    float: none;   
+}
+
+.text_div_center {
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.products-left div div {
+    width: 94px;
+    display: inline-block;   
+    margin: 0 5px 26px 5px;
+    background: #f4f6f8;    
+}
+
+.goods-min {   
+    height: 70px;
+    padding:0 18px;   
+}
+
+.products-left div div:hover {
+    cursor: pointer;
+    background: #ff7013;
+}
+
+
+.products-left div .active {
+    background: #ff7013;
+}
+
+.products-right-1 {
+    height: 235px;
+    width: 615px;
+    border-bottom: 1px solid #edeff1;
+
+}
+
+.products-right-2 {
+    height: 96px;
+    width: 615px;
+    border-bottom: 1px solid #edeff1;
+
+}
+
+.products-right-3 {
+    height: 132px;
+    width: 615px;
+}
+
+.products-right-1 h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #ff5912;    
+}
+
+.products-right-1 p span {
+    font-size: 18px;
+    margin-left: 36px;    
+}
+
+.products-right-1 p {
+    line-height:190%;
+    margin: 10px 0 0 0;
+}
+
+.products-right-2 p {
+    font-size: 18px;
+    display: inline-block;
+    margin: 32px 0 0 40px;
+}
+
+.products-right-2 span.active {
+    font-size: 22px;
+    color: #ff5912; 
+}
+
+.products-right-2 .size:hover {
+    cursor: pointer;
+    color: #ff5912;    
+}
+
+.products-right-2 .choos {
+    margin-left: 158px;
+    position: relative;
+}
+
+.products-right-2 .choos::before {
+    content: "";
+    width: 2px;
+    height: 30px;
+    background: #edeff1;
+    position: absolute;
+    left: -100px;
+    top: -3px;
+}
+
+.choos button {
+    font-size: 22px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.count {
+    font-size: 22px;
+    color: #ff5912;
+}
+
+.choos button:hover {
+    color: #ff5912;
+}
+
+.products-right-3 p {
+    display: inline-block;
+    margin: 50px 230px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.products-right-3 button {
+    font-size: 18px;
+    padding: 20px;
+    background: #ff5912;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.products-right-3 a {
+    margin: 0 20px 0 0;
+    color: #43525d;
+}
+
+.products-right-3 a:hover {    
+    box-shadow: 0 0 10px  #ff7a41;
+    border-radius: 30%;    
+}
+
+

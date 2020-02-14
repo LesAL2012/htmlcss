@@ -1,0 +1,505 @@
+.div_break_mobile {
+    display: none;    
+}
+
+/* -- mobile 768 px --- */
+@media screen and (max-width:768px){
+    .container-100,
+    .section-description-100,
+    .goods-cart-25,    
+    .header-bottom,
+    .header-logo,
+    .header-info,
+    .user-link,
+    .goods-cart-33,
+    .letter-1, .letter-1,
+    .products-left, .products-right,
+    aside
+
+    
+    
+    {
+        width: auto;
+        min-height: auto;
+        float: none;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .md-2,
+    .md-3,    
+    .md-4,
+    .md-5,
+    .md-6,
+    .md-8,
+    .md-9,
+    .md-10,  
+    .md-12 {
+        float: left;
+        margin: 0 1.25%;
+    }    
+    
+    .md-2 {
+        width: 14.16%; 
+    }
+    .md-3 {
+        width: 22.5%;
+         
+    }
+    .md-4 {
+        width: 30.83%;        
+    }
+    .md-5 {
+        width: 38.85%; 
+    }
+    .md-6 {
+        width: 47.5%;
+    }
+    .md-8 {
+        width: 64.16%; 
+    }
+    .md-9 {
+        width: 72.5%;        
+    }
+    .md-10 {
+        width: 80.83%; 
+    }
+    .md-12 {
+        width: 97.5%;
+         
+    }
+    /* ---comon--- */
+    .container-100 {       
+        margin: 10px 0;
+    }
+
+    .container-100 h2  {   
+        margin: 0;         
+    }
+
+    .section-description-100 {
+        margin: 10px 0;        
+    }
+    /* ---comon end--- */
+
+
+    /* --header-- */
+    header, .header-logo,
+    .header-info, .user-link, 
+    .header-bottom, footer  {        
+        height: auto;        
+    }
+
+    .header-logo, .footer-logo {
+        height: 80px;
+        padding: 20px 0 0 10px;        
+    }
+
+    .header-info ul li  {
+        line-height: 100%;
+        margin: 22px 28px 10px 0;        
+    }
+
+    .user-link a {
+        margin: 45px 9px 0 0;
+    }
+
+    .basket-counter {
+        right: 13px;
+        top: 33px;    
+    }
+    /* --header end-- */
+
+    /* --woman-- */
+    .woman {
+        width: 100%;
+        height: auto;        
+        background-size: cover;
+        margin: -10px 0 20px 0;           
+    }
+
+    .woman .container-100 {
+        padding: 0;
+        width: 100%;
+        margin: 10px;
+        height: auto;
+    }
+
+    .woman .container-100 p {        
+        line-height: 130%;        
+    }
+
+    .woman .container-100 h1 {
+        font-size: 48px; 
+        margin-bottom: 10px;       
+    }
+
+    .woman p span .orange {
+        line-height: 400%;
+        margin-left: 20px;    
+    }
+    /* --woman end-- */
+
+    /* --new arrivals-- */
+    .goods-cart-25 {
+        margin-bottom: 20px;
+    }
+    /* --new arrivals end-- */
+
+
+    /* --Full winter kit-- */
+    .amalker-1, .amalker-2 {        
+        margin: 20px auto;
+        display: block;
+        float: none;        
+    }
+
+    .amalker-1 {
+        width: 500px;
+
+    }
+
+    .amalker-1_1 {
+        padding: 10px 0;
+        width: 80px;        
+    }
+
+    .amalker-1_1 p {
+        padding: 5px 0 0 18px;
+    }
+
+    .amalker-1_2 {
+        padding: 10px 0;
+        width: 270px;        
+    }
+
+    .amalker-1_3 {
+        padding: 10px 0;
+        width: 120px;        
+    }
+
+    .amalker-1_3 i {
+        margin: 0;           
+    }
+
+    .amalker-2 {
+        padding-top: 1px;
+    }
+    /* --Full winter kit end-- */
+
+
+    /* ----best sales--- */
+    .goods-cart-33_2 p  {   
+        margin: 20px 0 20px 0;         
+    }
+
+    .goods-cart-33  {   
+        margin: 0 1.25% 20px 1.25%;         
+    }
+    /* ----best sales end--- */
+    
+     
+    /* ---news letter--- */
+    .letter-1 h3 {
+        margin: 50px 0 0 30px;    
+    }
+
+    .letter-1 p {
+        margin: 50px 0 0 25px;    
+    }  
+
+    .letter-2 form input {       
+        width: 62%;
+    }
+
+    /* ---news letter end--- */
+    .bg-white {
+        padding: 10px 0;        
+    }
+
+    /* ----products show---- */
+
+    .bg-white {
+        padding: 10px 0;        
+    }
+    
+    .products-left .goods-cart {       
+        height: 250px;        
+    }
+
+    .products-right-1 h1 {
+        font-size: 36px;        
+    }
+    
+    .products-right-2 {
+        text-align: left;
+        padding: 0;
+    }
+    
+    .products-right-2 p {        
+        margin: 32px 7.5% 0 0;        
+    }  
+
+    .products-right-2 .choos {
+        margin: 0 0 0 9%;        
+    }
+    
+    .products-right-2 .choos::before {
+        content: "";
+        width: 0;
+        height: 0;   
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    .products-right-3 p {       
+        margin: 50px 30px 0 0;        
+    }
+
+    .products-right-3 button {       
+        margin: 0 0 0 12%;             
+    } 
+
+    .products-right-3 i {       
+        margin-left: 2.8%;       
+    } 
+
+    /* ----products show end---- */
+
+    /* ----products categories---- */
+    .div_break_mobile {
+        display: block;         
+    }
+
+    .price-form input {
+        margin: 10px 0;    
+    }
+
+    .caregories {
+        padding: 10px;        
+        margin-bottom: 10px;
+    }
+    
+    .container-75 .goods-cart-25 {
+        margin: 0 1.25% 30px 1.25%;
+        width: 47.5%;
+        float: left;        
+    }
+
+    .container-75 .three-point {
+    margin: 0 1.25%;
+    width: 97.5%;        
+}
+
+    /* ----products categories end---- */
+    
+
+    /* --footer-- */
+    .footer-info-16 ul {
+        margin: 5px -15px 10px 30px;
+        padding: 0;
+    }
+
+    .footer-info-16 ul li a {   
+        line-height: 180%;   
+    } 
+
+    .footer-pay_methods-16 h4 {
+        margin: 0;
+    }
+
+    .footer-pay_methods-16,
+    .footer-info-16 {
+        margin: 0 0 10px 0;
+        padding: 0;       
+    }
+    /* --footer end-- */
+   
+    
+
+  
+}
+
+/* -- mobile 550 px --- */
+@media screen and (max-width:550px){
+    .container-100,
+    .section-description-100,
+    .goods-cart-25,    
+    .header-logo,
+    .header-info,
+    .user-link,
+    .goods-cart-33,
+    aside
+
+     {
+        width: auto;
+        min-height: auto;
+        float: none;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    .sd-2,
+    .sd-3,
+    .sd-4,
+    .sd-5,
+    .sd-6,
+    .sd-8,
+    .sd-9,  
+    .sd-10,  
+    .sd-12 {
+        float: left;
+        margin: 0 1.25%;        
+    }    
+    .sd-2 {
+        width: 14.16%; 
+    }
+    .sd-3 {
+        width: 22.5%; 
+    }
+    .sd-4 {
+        width:30.83%; 
+    }
+    .sd-5 {
+        width:38.85%; 
+    }
+    .sd-6 {
+        width:47.5%;
+    }
+    .sd-8 {
+        width:64.16%; 
+    } 
+    .sd-9 {
+        width: 72.5%;; 
+    } 
+    .sd-10 {
+        width:80.83%; 
+    }
+    .sd-12 {
+        width:97.5%; 
+    }
+
+    /* ---comon--- */    
+    .container-100 {       
+        margin: 10px 0;
+    }
+    
+    .section-description-100 {
+        margin: 5px 0;
+    }
+    /* ---comon end--- */
+    
+    
+    /* --header-- */
+    .user-link a {
+        margin: 10px 15px 0 0;
+    }
+
+    .user-link {
+        height: 40px;
+    }    
+
+    .basket-counter {
+        right: 19px;
+        top: 0px;    
+    }
+    /* --header end-- */
+
+    /* --new arrival-- */
+    .goods-cart-25 {
+        margin-bottom: 20px;
+    }
+    /* --new arrival end-- */
+
+
+    /* --best sales-- */
+    .goods-cart-33_2 p  {   
+        margin: 15px 0 40px 0;         
+    }
+
+    .goods-cart-33  {   
+        margin: 0 1.25% 5px 1.25%;         
+    }
+    /* --best sales end-- */ 
+
+    /* ---news letter--- */
+    .letter-1 h3, .letter-1 p {
+        margin: 25px auto; 
+        text-align: center;
+        display: block;
+    }
+  
+    .letter-2 form button {
+        margin: 0 0 0 10px;
+    }
+     
+     .letter-2 form input {       
+         width: 50%;
+    }
+    /* ---news letter end--- */
+
+    /* ----products show---- */    
+    .products-right-2 p {        
+        margin: 32px 5% 0 0;        
+    }    
+    .products-right-2 .choos {
+        margin: 0 0 0 5%;       
+    }
+    
+    .products-right-3 button, .products-right-3 i {       
+        margin-left: 2.8%;        
+    } 
+    /* ----products showend---- */
+
+    /* ----products categories---- */
+   
+    .price-form input {
+        margin: 20px 0;    
+    }
+ 
+    .caregories {
+        padding: 15px;        
+        margin: 0 1.25% 10px 1.25%;
+        float: left;
+        width: 38.9%; 
+        height: 210px;
+    }    
+
+
+    /* Вариант - на минимальном разрешениии - товары в три ряда  */
+/*         
+    .container-75 .goods-cart-25 {
+        margin: 0 1% 30px 1%;
+        width: 31.33%;
+        height: 230px;        
+        float: left;
+        padding: 0;
+        
+    }
+
+    .container-75 .goods-cart-25 img {
+        height: 50%;
+        margin: 5px;
+    }
+
+    .container-75 .goods-cart-25 p {       
+        margin: 5px 0;
+        font-size: 15px;
+    }
+
+    .container-75 .goods-cart-25 a img.active {
+        height: 22%;        
+    } 
+    
+    */
+
+    .container-75 .three-point {
+    margin: 0 1.25%;
+    width: 97.5%; 
+    float: left;       
+}
+
+    /* ----products categories end---- */
+    
+}
